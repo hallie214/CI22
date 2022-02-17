@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-$("#link").hover(function(){
-$("#link").css("color", "red");
+$("#p1").hover(function(){
+$("#p1").css("color", "red");
 });
-$("#[the-id-of-what-you'll-hover-on]").mouseout(function(){
-$("#[the-id-of-the-element-you-want-to-have-different-css]").css("[the-new-property]", "[the-new-value]");
+$("#p1").mouseout(function(){
+$("#p1").css("color", "black");
 });
 
 })
