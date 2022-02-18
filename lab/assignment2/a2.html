@@ -1,0 +1,1129 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>Text Garden</title>
+    <link rel="shortcut icon" href="a2(img1).png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="a2.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Syne+Tactile&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+      body {
+        color:black;
+        background-color:white;
+        cursor: default;
+        font-family: 'Syne Tactile', cursive;
+
+      }
+
+      #title {
+        position: absolute;
+        width: 80vw;
+        height:8vh;
+        left: 10vw;
+        top: 10vh;
+        font-style: normal;
+        text-align: left;
+        font-size: 30px;
+        font-weight:200;
+        line-height:2;
+      }
+
+      #img7 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 23vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img12 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 32vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img19 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 32vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img25 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 41vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img32 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 50vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img37 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 50vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img41 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 59vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img49 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 59vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img55 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 68vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img63 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 77vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img68 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 77vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img74 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 86vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+      #img76 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 86vh;
+        z-index: 100;
+        display: none;
+        cursor: pointer;
+      }
+
+
+      #grass1 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 23vh;
+      }
+      #grass2 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 23vh;
+      }
+      #grass3 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 23vh;
+      }
+      #grass4 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 23vh;
+      }
+      #grass5 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 23vh;
+      }
+      #grass6 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 23vh;
+      }
+      #grass7 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 23vh;
+      }
+      #grass8 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 23vh;
+      }
+      #grass9 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 23vh;
+      }
+      #grass10 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 23vh;
+      }
+
+      #grass11 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 32vh;
+      }
+      #grass12 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 32vh;
+      }
+      #grass13 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 32vh;
+      }
+      #grass14 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 32vh;
+      }
+      #grass15 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 32vh;
+      }
+      #grass16 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 32vh;
+      }
+      #grass17 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 32vh;
+      }
+      #grass18 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 32vh;
+      }
+      #grass19 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 32vh;
+      }
+      #grass20 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 32vh;
+      }
+
+      #grass21 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 41vh;
+      }
+      #grass22 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 41vh;
+      }
+      #grass23 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 41vh;
+      }
+      #grass24 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 41vh;
+      }
+      #grass25 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 41vh;
+      }
+      #grass26 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 41vh;
+      }
+      #grass27 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 41vh;
+      }
+      #grass28 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 41vh;
+      }
+      #grass29 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 41vh;
+      }
+      #grass30 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 41vh;
+      }
+
+      #grass31 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 50vh;
+      }
+      #grass32 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 50vh;
+      }
+      #grass33 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 50vh;
+      }
+      #grass34 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 50vh;
+      }
+      #grass35 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 50vh;
+      }
+      #grass36 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 50vh;
+      }
+      #grass37 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 50vh;
+      }
+      #grass38 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 50vh;
+      }
+      #grass39 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 50vh;
+      }
+      #grass40 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 50vh;
+      }
+
+      #grass41 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 59vh;
+      }
+      #grass42 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 59vh;
+      }
+      #grass43 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 59vh;
+      }
+      #grass44 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 59vh;
+      }
+      #grass45 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 59vh;
+      }
+      #grass46 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 59vh;
+      }
+      #grass47 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 59vh;
+      }
+      #grass48 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 59vh;
+      }
+      #grass49 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 59vh;
+      }
+      #grass50 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 59vh;
+      }
+
+      #grass51 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 68vh;
+      }
+      #grass52 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 68vh;
+      }
+      #grass53 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 68vh;
+      }
+      #grass54 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 68vh;
+      }
+      #grass55 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 68vh;
+      }
+      #grass56 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 68vh;
+      }
+      #grass57 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 68vh;
+      }
+      #grass58 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 68vh;
+      }
+      #grass59 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 68vh;
+      }
+      #grass60 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 68vh;
+      }
+
+      #grass61 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 77vh;
+      }
+      #grass62 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 77vh;
+      }
+      #grass63 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 77vh;
+      }
+      #grass64 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 77vh;
+      }
+      #grass65 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 77vh;
+      }
+      #grass66 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 77vh;
+      }
+      #grass67 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 77vh;
+      }
+      #grass68 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 77vh;
+      }
+      #grass69 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 77vh;
+      }
+      #grass70 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 77vh;
+      }
+
+      #grass71 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 10vw;
+        top: 86vh;
+      }
+      #grass72 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 18vw;
+        top: 86vh;
+      }
+      #grass73 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 26vw;
+        top: 86vh;
+      }
+      #grass74 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 34vw;
+        top: 86vh;
+      }
+      #grass75 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 42vw;
+        top: 86vh;
+      }
+      #grass76 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 50vw;
+        top: 86vh;
+      }
+      #grass77 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 58vw;
+        top: 86vh;
+      }
+      #grass78 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 66vw;
+        top: 86vh;
+      }
+      #grass79 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 74vw;
+        top: 86vh;
+      }
+      #grass80 {
+        cursor: default;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        width: 6vw;
+        height:4vh;
+        left: 82vw;
+        top: 86vh;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id=title>welcome to the text garden</div>
+
+    <div id=grass1>grass</div>
+    <div id=grass2>grass</div>
+    <div id=grass3>grass</div>
+    <div id=grass4>grass</div>
+    <div id=grass5>grass</div>
+    <div id=grass6>grass</div>
+    <div id=grass7>grass</div>
+    <div id=grass8>grass</div>
+    <div id=grass9>grass</div>
+    <div id=grass10>grass</div>
+
+    <div id=grass11>grass</div>
+    <div id=grass12>grass</div>
+    <div id=grass13>grass</div>
+    <div id=grass14>grass</div>
+    <div id=grass15>grass</div>
+    <div id=grass16>grass</div>
+    <div id=grass17>grass</div>
+    <div id=grass18>grass</div>
+    <div id=grass19>grass</div>
+    <div id=grass20>grass</div>
+
+    <div id=grass21>grass</div>
+    <div id=grass22>grass</div>
+    <div id=grass23>grass</div>
+    <div id=grass24>grass</div>
+    <div id=grass25>grass</div>
+    <div id=grass26>grass</div>
+    <div id=grass27>grass</div>
+    <div id=grass28>grass</div>
+    <div id=grass29>grass</div>
+    <div id=grass30>grass</div>
+
+    <div id=grass31>grass</div>
+    <div id=grass32>grass</div>
+    <div id=grass33>grass</div>
+    <div id=grass34>grass</div>
+    <div id=grass35>grass</div>
+    <div id=grass36>grass</div>
+    <div id=grass37>grass</div>
+    <div id=grass38>grass</div>
+    <div id=grass39>grass</div>
+    <div id=grass40>grass</div>
+
+    <div id=grass41>grass</div>
+    <div id=grass42>grass</div>
+    <div id=grass43>grass</div>
+    <div id=grass44>grass</div>
+    <div id=grass45>grass</div>
+    <div id=grass46>grass</div>
+    <div id=grass47>grass</div>
+    <div id=grass48>grass</div>
+    <div id=grass49>grass</div>
+    <div id=grass50>grass</div>
+
+    <div id=grass51>grass</div>
+    <div id=grass52>grass</div>
+    <div id=grass53>grass</div>
+    <div id=grass54>grass</div>
+    <div id=grass55>grass</div>
+    <div id=grass56>grass</div>
+    <div id=grass57>grass</div>
+    <div id=grass58>grass</div>
+    <div id=grass59>grass</div>
+    <div id=grass60>grass</div>
+
+    <div id=grass61>grass</div>
+    <div id=grass62>grass</div>
+    <div id=grass63>grass</div>
+    <div id=grass64>grass</div>
+    <div id=grass65>grass</div>
+    <div id=grass66>grass</div>
+    <div id=grass67>grass</div>
+    <div id=grass68>grass</div>
+    <div id=grass69>grass</div>
+    <div id=grass70>grass</div>
+
+    <div id=grass71>grass</div>
+    <div id=grass72>grass</div>
+    <div id=grass73>grass</div>
+    <div id=grass74>grass</div>
+    <div id=grass75>grass</div>
+    <div id=grass76>grass</div>
+    <div id=grass77>grass</div>
+    <div id=grass78>grass</div>
+    <div id=grass79>grass</div>
+    <div id=grass80>grass</div>
+
+    <img id=img7 src="a2(img2).gif">
+    <img id=img12 src="a2(img2).gif">
+    <img id=img19 src="a2(img2).gif">
+    <img id=img25 src="a2(img2).gif">
+    <img id=img32 src="a2(img2).gif">
+    <img id=img37 src="a2(img2).gif">
+    <img id=img41 src="a2(img2).gif">
+    <img id=img49 src="a2(img2).gif">
+    <img id=img55 src="a2(img2).gif">
+    <img id=img63 src="a2(img2).gif">
+    <img id=img68 src="a2(img2).gif">
+    <img id=img74 src="a2(img2).gif">
+    <img id=img76 src="a2(img2).gif">
+
+
+
+  </body>
+</html>
