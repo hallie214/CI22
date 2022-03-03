@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-$("#p1").hover(function(){
-$("#p1").css("color", "red");
+$("#hover1").hover(function(){
+$("#hover1").css("color", "grey");
 });
-$("#p1").mouseout(function(){
-$("#p1").css("color", "black");
+$("#hover1").mouseout(function(){
+$("#hover1").css("color", "black");
 });
 
 })
