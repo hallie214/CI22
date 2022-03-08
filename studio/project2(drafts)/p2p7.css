@@ -695,7 +695,7 @@ body {
   z-index:-100;
   cursor: pointer;
   font-weight:200;
-  /* display:none; */
+  display:none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1395,6 +1395,6 @@ body {
     z-index:-100;
     cursor: pointer;
     font-weight:200;
-    /* display:none; */
+    display:none;
   }
 }
