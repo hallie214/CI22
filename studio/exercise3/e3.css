@@ -1,0 +1,300 @@
+body {
+  position: absolute;
+  color:black;
+  background-color:white;
+
+  font-family: effra, sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight:200;
+  line-height:1.5;
+  letter-spacing:-0.05;
+  cursor: default;
+}
+.title {
+  font-size: 25px;
+  font-weight:400;
+  background-color: white;
+}
+#title1 {
+  /* background-color: red; */
+  position: fixed;
+  width: 45vw;
+  height:10vh;
+  left: 5vw;
+  top: 5vh;
+  text-align: left;
+  z-index:100;
+  cursor: default;
+}
+#title2 {
+  /* background-color: blue; */
+  position: fixed;
+  width: 45vw;
+  height:10vh;
+  right: 5vw;
+  top: 5vh;
+  text-align: right;
+  z-index:100;
+  cursor: default;
+}
+#title2-1 {
+  cursor: pointer;
+}
+
+.text1 {
+  /* background-color: red; */
+  position: absolute;
+  width: 40vw;
+  height:30vh;
+  left: 5vw;
+  top: 15vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+}
+#text1-2 {
+  display: none;
+  font-family: adobe-handwriting-ernie, sans-serif;
+}
+
+.text2 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 40vw;
+  height: 45vh;
+  left: 55vw;
+  top: 30vh;
+  text-align: right;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+.text2-1 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 40vw;
+  height: 45vh;
+  left: 55vw;
+  top: 30vh;
+  text-align: right;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  display:none;
+}
+#text2-2 {
+  font-family: adobe-handwriting-ernie, sans-serif;
+}
+
+.text3 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 20vw;
+  height: 45vh;
+  left: 5vw;
+  top: 45vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text4 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 30vw;
+  height: 45vh;
+  left: 26vw;
+  top: 70vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text5 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 90vw;
+  height: 45vh;
+  left: 5vw;
+  top: 90vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text6 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 20vw;
+  height: 45vh;
+  left: 75vw;
+  top: 105vh;
+  text-align: right;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text7 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 25vw;
+  height: 45vh;
+  left: 15vw;
+  top: 130vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text8 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 30vw;
+  height: 45vh;
+  left: 5vw;
+  top: 160vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text9 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 70vw;
+  height: 45vh;
+  left: 15vw;
+  top: 170vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text10 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 25vw;
+  height: 45vh;
+  left: 60vw;
+  top: 190vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text11 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 30vw;
+  height: 45vh;
+  left: 20vw;
+  top: 210vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text12 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 50vw;
+  height: 45vh;
+  left: 5vw;
+  top: 250vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text13 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 20vw;
+  height: 45vh;
+  left: 35vw;
+  top: 285vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text14 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 25vw;
+  height: 45vh;
+  left: 70vw;
+  top: 295vh;
+  text-align: right;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+.text15 {
+  /* background-color: red; */
+  position: absolute;
+  color: black;
+  width: 40vw;
+  height: 45vh;
+  left: 35vw;
+  top: 320vh;
+  text-align: left;
+  z-index:-100;
+  cursor: pointer;
+  font-weight:200;
+  /* display:none; */
+}
+
+
+#??? {
+  position: absolute;
+  /* display: none; */
+  font-family: adobe-handwriting-ernie, sans-serif;
+  text-align: left;
+  left: 60vw;
+  top: 25vh;
+  width: 30vw;
+  height: 30vh;
+  z-index:-90;
+}
