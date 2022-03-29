@@ -8,6 +8,13 @@
 
 // alert("[whatever-little-message-you-want]");
 
+$("#p3p2").hover(function(){
+$("#p3p2").css("color", "grey");
+});
+$("#p3p2").mouseout(function(){
+$("#p3p2").css("color", "black");
+});
+
 $("#p3p1").hover(function(){
 $("#p3p1").css("color", "grey");
 });
@@ -114,6 +121,13 @@ $("#p1").css("color", "black");
 });
 
 // alert("[whatever-little-message-you-want]");
+
+$("#e4").hover(function(){
+$("#e4").css("color", "grey");
+});
+$("#e4").mouseout(function(){
+$("#e4").css("color", "black");
+});
 
 $("#e3").hover(function(){
 $("#e3").css("color", "grey");
