@@ -8,6 +8,21 @@
 
 // alert("[whatever-little-message-you-want]");
 
+
+$("#p3p6").hover(function(){
+$("#p3p6").css("color", "grey");
+});
+$("#p3p6").mouseout(function(){
+$("#p3p6").css("color", "black");
+});
+
+$("#p3p5").hover(function(){
+$("#p3p5").css("color", "grey");
+});
+$("#p3p5").mouseout(function(){
+$("#p3p5").css("color", "black");
+});
+
 $("#p3p2").hover(function(){
 $("#p3p2").css("color", "grey");
 });
@@ -121,6 +136,13 @@ $("#p1").css("color", "black");
 });
 
 // alert("[whatever-little-message-you-want]");
+
+$("#e5").hover(function(){
+$("#e5").css("color", "grey");
+});
+$("#e5").mouseout(function(){
+$("#e5").css("color", "black");
+});
 
 $("#e4").hover(function(){
 $("#e4").css("color", "grey");
