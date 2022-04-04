@@ -1,0 +1,177 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Rigid Square;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+
+  position: absolute
+  z-index: 0;
+  opacity: 1;
+  width: vw;
+  left: vw;
+  top: vh;
+}
+
+#title {
+  font-size: 55px;
+}
+
+#section1 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 10vw;
+}
+#section2 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 80vw;
+}
+#section3 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 140vw;
+}
+#section4 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 210vw;
+}
+#section5 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 280vw;
+}
+#section6 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 350vw;
+}
+#section7 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 420vw;
+}
+#section8 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 490vw;
+}
+#section9 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 560vw;
+}
+#section10 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 630vw;
+}
+#section11 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 700vw;
+}
+#section12 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 770vw;
+}
+#section13 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 840vw;
+}
+#section14 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 910vw;
+}
+#section15 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 980vw;
+}
+#section16 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1050vw;
+}
+#section17 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1120vw;
+}
+#section18 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1190vw;
+}
+#section19 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1260vw;
+}
+#section20 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1330vw;
+}
+#section21 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1400vw;
+}
+#section22 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1470vw;
+}
+#section23 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1540vw;
+}
+#section24 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1610vw;
+}
+#section25 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1680vw;
+}
+#section26 {
+  position: absolute;
+  width: 50vw;
+  top: 8vh;
+  left: 1750vw;
+}
