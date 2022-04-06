@@ -8,6 +8,12 @@
 
 // alert("[whatever-little-message-you-want]");
 
+$("#p3p7").hover(function(){
+$("#p3p7").css("color", "grey");
+});
+$("#p3p7").mouseout(function(){
+$("#p3p7").css("color", "black");
+});
 
 $("#p3p6").hover(function(){
 $("#p3p6").css("color", "grey");
