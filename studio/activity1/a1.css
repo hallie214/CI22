@@ -1,0 +1,48 @@
+body {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  cursor: default;
+}
+
+#name {
+  position: absolute;
+  left: 10vw;
+  top: 10vh;
+  font-weight: 600;
+  z-index: 100;
+}
+#project {
+  position: absolute;
+  right: 10vw;
+  top: 10vh;
+  z-index: 100;
+}
+
+#title {
+  position: absolute;
+  text-align: center;
+  left: 30vw;
+  top: 24vh;
+  width: 40vw;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  line-height: 1.;
+  z-index: -100;
+}
+#title1 {
+  font-size: 22px;
+  z-index: -100;
+}
+#title2 {
+  font-size: 60px;
+  font-weight: 600;
+  z-index: -100;
+}
+
+.rectangle {
+  left: -5vw;
+  width: 110vw;
+  height: 24vh;
+}
