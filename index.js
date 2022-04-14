@@ -208,6 +208,13 @@ $("#e1").css("color", "black");
 
 // alert("[whatever-little-message-you-want]");\\
 
+$("#a6").hover(function(){
+$("#a6").css("color", "grey");
+});
+$("#a6").mouseout(function(){
+$("#a6").css("color", "black");
+});
+
 $("#a5").hover(function(){
 $("#a5").css("color", "grey");
 });

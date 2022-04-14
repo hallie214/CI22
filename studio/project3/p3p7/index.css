@@ -1,0 +1,31 @@
+body {
+  color:black;
+  background-color:#white;
+  font-family: Rigid-square, sans-serif;;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+
+#title {
+  position: absolute
+  z-index: 0;
+  opacity: 1;
+  width: vw;
+  left: vw;
+  top: vh;
+  font-size: 60px;
+}
+#description {
+  position: absolute
+  z-index: 0;
+  opacity: 1;
+  width: vw;
+  left: vw;
+  top: vh;
+  font-size: 20px;
+}
+
+.category {
+  font-size: 22px;
+}
