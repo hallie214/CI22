@@ -1,0 +1,219 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Rigid-square, sans-serif;;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  cursor: default;
+}
+
+#title {
+  position: absolute;
+  background-color: black;
+  font-size: 100px;
+  text-align: center; display: flex; justify-content: center; align-items: center;
+  z-index: 10;
+  top: 7.14vh; height: 28.34vh;
+  left: 20.825vw; width: 49.84vw;
+  border: 2px solid white;
+}
+#description {
+  position: absolute;
+  background-color: black;
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: left;
+  padding-top: 3vh; padding-bottom: 3vh;
+  padding-left: 3vw; padding-right: 3vw;
+  /* display: inline-block; */
+   /* display: flex; justify-content: center; align-items: center; */
+  z-index: 10;
+  top: 92.82vh; height: 22.70vh;
+  left: 37.485vw; width: 35.61vw;
+  border: 2px solid white;
+  overflow: auto;
+}
+.descriptionlink {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+
+#category1 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center; display: flex; justify-content: center; align-items: center;
+  z-index: 10;
+  top: 49.98vh; height: 28.35vh;
+  left: 29.155vw; width: 24.85vw;
+  border: 2px solid white;
+  cursor: pointer;
+  /* border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black; */
+}
+#category2 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center; display: flex; justify-content: center; align-items: center;
+  z-index: 10;
+  top: 64.26vh; height: 14.05vh;
+  left: 62.475vw; width: 24.85vw;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#image1 {
+  position: absolute;
+  z-index: 100;
+  left: 0vw; width: 20.825vw;
+  top: 35.7vh; height: 71.4vh;
+}
+#image2 {
+  position: absolute;
+  z-index: 100;
+  left: 79.135vw; width: 20.825vw;
+  top: 0vh; height: 49.98vh;
+}
+
+.horizontalline {
+  position: absolute;
+  width: 100vw; height: 2px;
+  left: 0vw;
+  color: white; background-color: white;
+}
+#h1 {
+  top: 7.14vh;
+}
+#h2 {
+  top: 21.42vh;
+}
+#h3 {
+  top: 35.7vh;
+}
+#h4 {
+  top: 49.98vh;
+}
+#h5 {
+  top: 64.26vh;
+}
+#h6 {
+  top: 78.54vh;
+}
+#h7 {
+  top: 92.82vh;
+}
+#h8 {
+  top: 107.01vh;
+}
+#h9 {
+  top: 121.38vh;
+}
+
+.verticalline {
+  position: absolute;
+  width: 2px; height: 128.52vh;
+  top: 0vh;
+  color: white; background-color: white;
+}
+#v1 {
+  left: 4.165vw;
+}
+#v2 {
+  left: 12.495vw;
+}
+#v3 {
+  left: 20.825vw;
+}
+#v4 {
+  left: 29.155vw;
+}
+#v5 {
+  left: 37.485vw;
+}
+#v6 {
+  left: 45.815vw;
+}
+#v7 {
+  left: 54.145vw;
+}
+#v8 {
+  left: 62.475vw;
+}
+#v9 {
+  left: 70.805vw;
+}
+#v10 {
+  left: 79.135vw;
+}
+#v11 {
+  left: 87.465vw;
+}
+#v12 {
+  left: 95.795vw;
+}
+
+#rectangle1 {
+  position: absolute;
+  background-color: white;
+  top: 0vh; height: 21.42vh;
+  left: 0vw; width: 12.495vw;
+}
+#rectangle2 {
+  position: absolute;
+  background-color: white;
+  top: 0vh; height: 21.42vh;
+  left: 37.485vw; width: 16.66vw;
+}
+#rectangle3 {
+  position: absolute;
+  background-color: white;
+  top: 78.54vh; height: 28.56vh;
+  left: 29.155vw; width: 16.66vw;
+}
+#rectangle4 {
+  position: absolute;
+  background-color: white;
+  top: 35.7vh; height: 28.56vh;
+  left: 62.475vw; width: 16.66vw;
+}
+#rectangle5 {
+  position: absolute;
+  background-color: white;
+  top: 49.98vh; height: 14.28vh;
+  left: 54.145vw; width: 8.33vw;
+}
+#rectangle6 {
+  position: absolute;
+  background-color: white;
+  top: 121.38vh; height: 7.14vh;
+  left: 0vw; width: 4.165vw;
+}
+#rectangle7 {
+  position: absolute;
+  background-color: white;
+  top: 107.10vh; height: 14.28vh;
+  left: 79.135vw; width: 20.825vw;
+}
+#rectangle8 {
+  position: absolute;
+  background-color: white;
+  top: 95.795vh; height: 28.56vh;
+  left: 121.38vw; width: 4.165vw;
+}
+#rectangle9 {
+  position: absolute;
+  background-color: white;
+  top: 121.38vh; height: 7.14vh;
+  left: 45.815vw; width: 16.66vw;
+}

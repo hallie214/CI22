@@ -8,6 +8,27 @@
 
 // alert("[whatever-little-message-you-want]");
 
+$("#p3p10-3").hover(function(){
+$("#p3p10-3").css("color", "grey");
+});
+$("#p3p10-3").mouseout(function(){
+$("#p3p10-3").css("color", "black");
+});
+
+$("#p3p10-2").hover(function(){
+$("#p3p10-2").css("color", "grey");
+});
+$("#p3p10-2").mouseout(function(){
+$("#p3p10-2").css("color", "black");
+});
+
+$("#p3p10-1").hover(function(){
+$("#p3p10-1").css("color", "grey");
+});
+$("#p3p10-1").mouseout(function(){
+$("#p3p10-1").css("color", "black");
+});
+
 $("#p3p9").hover(function(){
 $("#p3p9").css("color", "grey");
 });
