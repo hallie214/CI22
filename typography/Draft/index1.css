@@ -1,0 +1,40 @@
+body {
+  color: white;
+  background-color: black;
+  font-size: 22px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  cursor: default;
+}
+
+.title {
+  position: fixed;
+  width: 30vw;
+  top: 10vh;
+}
+#title1 {
+  text-align: left;
+  left: 10vw;
+}
+#title2 {
+  text-align: right;
+  right: 10vw;
+}
+
+#exhibition {
+  top: 44vh;
+  position: absolute;
+  text-align: center;
+  width: 80vw;
+  height: 12vh;
+  /* background-color: red; */
+  left: 10vw;
+  line-height: 1.5;
+}
+#exhibition1 {
+  font-size: 30px;
+}
+#exhibition2 {
+  font-size: 55px;
+  font-weight: 700;
+}
