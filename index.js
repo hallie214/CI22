@@ -8,6 +8,41 @@
 
 // alert("[whatever-little-message-you-want]");
 
+$("#p4p5").hover(function(){
+$("#p4p5").css("color", "grey");
+});
+$("#p4p5").mouseout(function(){
+$("#p4p5").css("color", "black");
+});
+
+$("#p4p4").hover(function(){
+$("#p4p4").css("color", "grey");
+});
+$("#p4p4").mouseout(function(){
+$("#p4p4").css("color", "black");
+});
+
+$("#p4p3").hover(function(){
+$("#p4p3").css("color", "grey");
+});
+$("#p4p3").mouseout(function(){
+$("#p4p3").css("color", "black");
+});
+
+$("#p4p2").hover(function(){
+$("#p4p2").css("color", "grey");
+});
+$("#p4p2").mouseout(function(){
+$("#p4p2").css("color", "black");
+});
+
+$("#p4p1").hover(function(){
+$("#p4p1").css("color", "grey");
+});
+$("#p4p1").mouseout(function(){
+$("#p4p1").css("color", "black");
+});
+
 $("#p3p11").hover(function(){
 $("#p3p11").css("color", "grey");
 });
