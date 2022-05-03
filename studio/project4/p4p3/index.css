@@ -1,0 +1,71 @@
+body {
+  position: absolute;
+  background-color: white;
+  font-family: omnes, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  cursor: default;
+}
+
+.title {
+  position: absolute;
+  z-index: 1000;
+  left: 10vw; width: 80vw;
+  color: #bf586f;
+  text-align: center;
+}
+.titlename {
+  top: 28vh; height: 34vh;
+  font-weight: 700;
+  font-size: 15vh;
+  line-height: 15vh;
+  cursor: pointer;
+  /* background-color: blue; */
+}
+#name {
+  top: 62vh; height: 5vh;
+  font-weight: 400;
+  font-size: 3vh;
+  /* background-color: blue; */
+}
+
+.button {
+  position: absolute;
+  font-family: omnes, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding-top: 2vh; padding-bottom: 2vh;
+  left: 5vw;
+  width: 16vw; height: 7vh;
+  cursor: pointer;
+}
+.buttonRed {
+  background-color: #b2242e;
+}
+.buttonPink {
+  background-color: #bf586f;
+}
+#button1 {
+  top: 15vh;
+}
+#button2 {
+  top: 26vh;
+}
+#button3 {
+  top: 37vh;
+}
+#button4 {
+  top: 48vh;
+}
+#rectangle1 {
+  position: absolute;
+  z-index: -1000;
+  background-color: #edcad2;
+  top: -5vh; height: 110vh;
+  left: -5vw; width: 31vw;
+}
