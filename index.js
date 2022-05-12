@@ -15,11 +15,18 @@ $("#p4p5").mouseout(function(){
 $("#p4p5").css("color", "black");
 });
 
-$("#p4p4").hover(function(){
-$("#p4p4").css("color", "grey");
+$("#p4p4i2").hover(function(){
+$("#p4p4i2").css("color", "grey");
 });
-$("#p4p4").mouseout(function(){
-$("#p4p4").css("color", "black");
+$("#p4p4i2").mouseout(function(){
+$("#p4p4i2").css("color", "black");
+});
+
+$("#p4p4i1").hover(function(){
+$("#p4p4i1").css("color", "grey");
+});
+$("#p4p4i1").mouseout(function(){
+$("#p4p4i1").css("color", "black");
 });
 
 $("#p4p3").hover(function(){
