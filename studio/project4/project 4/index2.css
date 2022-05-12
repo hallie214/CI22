@@ -1,0 +1,93 @@
+body {
+  position: fixed;
+  background-color: white;
+  font-family: omnes, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  cursor: default;
+}
+
+.title {
+  position: fixed;
+  z-index: 1000;
+  left: 10vw; width: 80vw;
+  color: #bf586f;
+  text-align: center;
+}
+.titlename {
+  top: 28vh; height: 34vh;
+  font-weight: 700;
+  font-size: 15vh;
+  line-height: 15vh;
+  cursor: pointer;
+  /* background-color: blue; */
+}
+#name {
+  top: 62vh; height: 5vh;
+  font-weight: 400;
+  font-size: 3vh;
+  /* background-color: blue; */
+}
+#title3 {
+  z-index: 1000;
+  position: fixed;
+  left: 58vw; width: vw;
+  top: 28vh; height: 14vh;
+}
+#title4 {
+  z-index: 1000;
+  position: fixed;
+  left: 58vw; width: vw;
+  top: 28vh; height: 14vh;
+  display: none;
+}
+
+#rectangle1 {
+  position: fixed;
+  z-index: -1000;
+  background-color: #edcad2;
+  top: -5vh; height: 105vh;
+  left: -5vw; width: 31vw;
+}
+#rectangle2 {
+  position: fixed;
+  z-index: 999;
+  background-color: #edcad2;
+  top: 0vh; height: 100vh;
+  left: 0vw; width: 100vw;
+}
+#rectangle3 {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .titlename {
+    top: 28vh; height: 34vh;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.5;
+    cursor: pointer;
+    /* background-color: blue; */
+  }
+  #title3 {
+    z-index: 1000;
+    position: fixed;
+    left: 64vw; width: vw;
+    top: 30vh; height: 8vh;
+  }
+  #rectangle1 {
+    position: fixed;
+    z-index: -1000;
+    background-color: #edcad2;
+    top: 0vh; height: 10vh;
+    left: 0vw; width: 100vw;
+  }
+  #rectangle3 {
+    position: fixed;
+    z-index: -1000;
+    opacity: 1;
+    background-color: #edcad2;
+    top: 70vh; height: 30vh;
+    left: 0vw; width: 100vw;
+  }
+}
