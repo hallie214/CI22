@@ -1,7 +1,7 @@
 body {
   position: fixed;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Rigid-square, sans-serif;;
   font-weight: 400;
   line-height: 1.5;
@@ -55,7 +55,7 @@ body {
   height: 25vh;
   line-height: 1.25;
   /* background-color: red; */
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 600;
 }
 
@@ -104,7 +104,7 @@ body {
   /* background-color: red; */
 }
 #text4-1 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 #currentTime {
   position: absolute;
-  font-size: 25px;
+  font-size: px;
   font-weight: 600;
 }
 #currentDate {

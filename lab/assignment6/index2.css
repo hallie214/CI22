@@ -58,7 +58,7 @@ body {
 
 #rectangle1 {
   position: absolute;
-  opacity: .6;
+  opacity: .4;
   z-index: 1000;
   color: black;
   background-color: black;
