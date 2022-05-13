@@ -1,0 +1,129 @@
+body {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  font-family: Rigid-square, sans-serif;;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: default;
+}
+
+.buttonContainer {
+  position: absolute;
+  z-index: 10000;
+  left: 85vw;
+  width: 10vw;
+  height: vh;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.buttonContainer:hover {
+  color: black;
+  background-color: white;
+}
+#button1 {
+  top: 43vh;
+}
+#button2 {
+  top: 54vh;
+}
+#button3 {
+  top: 65vh;
+}
+#button4 {
+  top: 76vh;
+}
+#button5 {
+  top: 87vh;
+}
+
+.textContainer {
+  position: absolute;
+}
+
+#text1 {
+  position: absolute;
+  text-align: right;
+  z-index: 10000;
+  left: 85vw;
+  width: 10vw;
+  top: 6vh;
+  height: 25vh;
+  line-height: 1.25;
+  /* background-color: red; */
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.text2{
+  position: absolute;
+  text-align: center;
+  z-index: 10000;
+  left: 30vw;
+  width: 40vw;
+  top: 6vh;
+  height: 3vh;
+  /* background-color: red; */
+}
+#text2-2 {
+  display: none
+}
+#text2-3 {
+  display: none
+}
+#text2-4 {
+  display: none
+}
+#text2-5 {
+  display: none
+}
+
+#text3{
+  position: absolute;
+  text-align: center;
+  z-index: 10000;
+  left: 30vw;
+  width: 40vw;
+  top: 91vh;
+  height: 3vh;
+  /* background-color: red; */
+}
+
+.text4{
+  position: absolute;
+  text-align: left;
+  z-index: 10000;
+  left: 5vw;
+  width: 10vw;
+  top: 6vh;
+  height: 14vh;
+  /* background-color: red; */
+}
+#text4-1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.timeContainer {
+  position: absolute;
+  z-index: 10000;
+  color: white;
+  text-align: left;
+  left: 5vw;
+  width: 10vw;
+  top: 88vh;
+  height: 6vh;
+  /* background-color: red; */
+}
+#currentTime {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 600;
+}
+#currentDate {
+  position: absolute;
+}

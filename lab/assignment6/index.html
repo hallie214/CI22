@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+  <!-- Title and Icon -->
+    <title>Assignment 6</title>
+    <link rel="shortcut icon" href="images/image1.png">
+
+  <!-- CSS -->
+    <link rel="stylesheet" href="index1.css" type="text/css">
+    <link rel="stylesheet" href="index2.css" type="text/css">
+
+  <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+
+  <!-- Typefaces -->
+    <link rel="stylesheet" href="https://use.typekit.net/wnq0fty.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wnq0fty.css">
+
+  </head>
+  <body onload="startTime()">
+
+      <iframe class="videoContainer" id="video1"src="https://www.youtube.com/embed/4qyZLflp-sI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=4qyZLflp-sI&mute=1"
+        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      <iframe class="videoContainer" id="video2"src="https://www.youtube.com/embed/AdUw5RdyZxI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=AdUw5RdyZxI&mute=1"
+        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      <iframe class="videoContainer" id="video3"src="https://www.youtube.com/embed/KGuCGd726RA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=KGuCGd726RA&mute=1"
+        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      <iframe class="videoContainer" id="video4"src="https://www.youtube.com/embed/Vj0XKu6AoOw?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Vj0XKu6AoOw&mute=1"
+        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      <iframe class="videoContainer" id="video5"src="https://www.youtube.com/embed/gFTM_VqQipI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=gFTM_VqQipI&mute=1"
+        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+        <!-- <iframe class="vidContainer" id="vid1"src="https://www.youtube.com/embed/4qyZLflp-sI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=4qyZLflp-sI&mute=1"
+          frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <iframe class="vidContainer" id="vid2"src="https://www.youtube.com/embed/AdUw5RdyZxI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=AdUw5RdyZxI&mute=1"
+          frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <iframe class="vidContainer" id="vid3"src="https://www.youtube.com/embed/KGuCGd726RA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=KGuCGd726RA&mute=1"
+          frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <iframe class="vidContainer" id="vid4"src="https://www.youtube.com/embed/Vj0XKu6AoOw?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Vj0XKu6AoOw&mute=1"
+          frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <iframe class="vidContainer" id="vid5"src="https://www.youtube.com/embed/gFTM_VqQipI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=gFTM_VqQipI&mute=1"
+          frameborder="0" allowfullscreen allow="autoplay"></iframe> -->
+
+      <div class="buttonContainer" id="button1">Camera 1</div>
+      <div class="buttonContainer" id="button2">Camera 2</div>
+      <div class="buttonContainer" id="button3">Camera 3</div>
+      <div class="buttonContainer" id="button4">Camera 4</div>
+      <div class="buttonContainer" id="button5">Camera 5</div>
+
+    <div class="textContainer">
+      <div id="text1">NYC Cams</div>
+      <div class="text2" id="text2-1">Currently looking at <strong>Camera 1</strong></div>
+      <div class="text2" id="text2-2">Currently looking at <strong>Camera 2</strong></div>
+      <div class="text2" id="text2-3">Currently looking at <strong>Camera 3</strong></div>
+      <div class="text2" id="text2-4">Currently looking at <strong>Camera 4</strong></div>
+      <div class="text2" id="text2-5">Currently looking at <strong>Camera 5</strong></div>
+      <div id="text3">Designed by Hallie Young</div>
+      <div class="text4"><span id="text4-1">System Status</span><br><br><span id="text4-2">System Booted<br>System Avaliable</span></div>
+    </div>
+
+    <div class="timeContainer">
+      <span class="date" id="currentTime"></span><br>
+      <span class="date" id="currentDate"></span>
+    </div>
+
+    <div id="rectangle1"></div>
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+    <div id="line4"></div>
+    <div id="line5"></div>
+
+    <div id="sec1"></div>
+    <div id="sec2"></div>
+    <div id="sec3"></div>
+    <div id="sec4"></div>
+
+    <div id="sec5"></div>
+    <div id="sec6"></div>
+    <div id="sec7"></div>
+    <div id="sec8"></div>
+
+    <div id="sec9"></div>
+    <div id="sec10"></div>
+
+    <script>
+
+    var today = new Date();  /* new date object */
+    var date = (today.getMonth() + 1) + ' / ' + today.getDate() + ' / ' + today.getFullYear();
+    /* display current date */
+    document.getElementById("currentDate").innerHTML = date;
+
+    /* Auto refreshing clock time */
+    function startTime() {
+      var today = new Date(); /* new date object */
+      /* getting minutes hours and seconds from date object */
+      var hours = today.getHours();
+      var minutes = today.getMinutes();
+      var seconds = today.getSeconds();
+      /* 12 hour time formate */
+      var amPm = "AM";
+      if ( hours > 13 ) {
+        amPm = "PM";
+        hours = hours-12;
+      }
+      /* put zero before numbers < 10 */
+      if (minutes < 10) {
+        minutes = "0" + minutes;
+      }
+      if (seconds < 10) {
+        seconds = "0" + seconds;
+      }
+
+      var time = hours + ' : ' + minutes + ' : ' + seconds + '  ' + amPm;
+       /* display current time */
+       document.getElementById("currentTime").innerHTML = time;
+
+       /* Auto refreshing time every 1 second */
+       setTimeout(function(){startTime()}, 1000 );
+
+       /* Time with date and current location */
+       document.getElementById("DateTime").innerHTML = today;
+
+    }
+
+  </script>
+
+  </body>
+</html>
